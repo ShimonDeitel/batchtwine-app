@@ -1,0 +1,28 @@
+{
+  "identifier" : "BatchTwine",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "cordagelog_pro",
+      "localizations" : [
+        {
+          "description" : "Fiber-to-cordage yield calculator by plant type",
+          "displayName" : "Batch Twine - Cordage Making Log Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "cordagelog_pro",
+      "referenceName" : "Batch Twine - Cordage Making Log Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
