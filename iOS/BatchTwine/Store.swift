@@ -34,7 +34,7 @@ final class Store: ObservableObject {
         isPro || entries.count < Store.freeLimit
     }
 
-    func add(fiber: String, technique: String, length: String, notes: String) {
+    func add(name: String, fiber: String, technique: String, length: String, notes: String) {
         guard canAddMore else { return }
         let entry = CordageEntry(name: name, fiber: fiber, technique: technique, length: length, notes: notes)
         entries.insert(entry, at: 0)
